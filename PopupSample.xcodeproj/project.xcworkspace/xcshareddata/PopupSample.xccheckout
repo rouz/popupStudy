@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>1AEC7FE8-88B8-4D9B-8A03-A4824F7BFED9</string>
+	<key>IDESourceControlProjectName</key>
+	<string>PopupSample</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>C324DE3978C3086EB28B7A5658FF8463E2C3E362</key>
+		<string>https://github.com/rouz/popupStudy.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>PopupSample.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>C324DE3978C3086EB28B7A5658FF8463E2C3E362</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/rouz/popupStudy.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>C324DE3978C3086EB28B7A5658FF8463E2C3E362</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>C324DE3978C3086EB28B7A5658FF8463E2C3E362</string>
+			<key>IDESourceControlWCCName</key>
+			<string>popupStudy</string>
+		</dict>
+	</array>
+</dict>
+</plist>

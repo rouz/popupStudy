@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "1FA76AAD195893080075A8E4"
-               BuildableName = "KLCPopupExample.app"
+               BuildableName = "PopupSample.app"
                BlueprintName = "PopupSample"
                ReferencedContainer = "container:PopupSample.xcodeproj">
             </BuildableReference>
@@ -43,7 +43,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "1FA76AAD195893080075A8E4"
-            BuildableName = "KLCPopupExample.app"
+            BuildableName = "PopupSample.app"
             BlueprintName = "PopupSample"
             ReferencedContainer = "container:PopupSample.xcodeproj">
          </BuildableReference>
@@ -62,7 +62,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "1FA76AAD195893080075A8E4"
-            BuildableName = "KLCPopupExample.app"
+            BuildableName = "PopupSample.app"
             BlueprintName = "PopupSample"
             ReferencedContainer = "container:PopupSample.xcodeproj">
          </BuildableReference>
@@ -80,7 +80,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "1FA76AAD195893080075A8E4"
-            BuildableName = "KLCPopupExample.app"
+            BuildableName = "PopupSample.app"
             BlueprintName = "PopupSample"
             ReferencedContainer = "container:PopupSample.xcodeproj">
          </BuildableReference>

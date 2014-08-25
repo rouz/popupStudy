@@ -1,12 +1,11 @@
 
 #import "SHViewController.h"
 #import "KLCPopup.h"
-#import "UIView+WM.h"
 #import "PopupMessageTwoButton.h"
 #import "SHViewController2.h"
-#import "SHGridViewController.h"
 
 @interface SHViewController ()
+@property (weak, nonatomic) IBOutlet UILabel *labelTest;
 
 @end
 
@@ -42,16 +41,24 @@
 
 - (IBAction)buttonTapped:(id)sender {
     
-    SHGridViewController *v = [[SHGridViewController alloc] initWithNibName:@"SHGridViewController" bundle:nil];
-    [self.navigationController pushViewController:v animated:YES];
-    /*
     PopupMessageTwoButton *profileView = [PopupMessageTwoButton loadFromNib];
     KLCPopup* popup = [KLCPopup popupWithContentView:profileView];
+    
     __weak KLCPopup *weakPopup = popup;
+    __weak SHViewController *weakSelf = self;
+    
     profileView.didFinishShowingCompletion = ^(BOOL isCanceled){
-        [weakPopup dismiss:YES];
+
+        [weakPopup dismiss];
+        
+        if (isCanceled) {
+            weakSelf.labelTest.text = @"いいえが押されました";
+        } else {
+            weakSelf.labelTest.text = @"はいが押されました";
+        }
+
     };
-    [popup show];*/
+    [popup show];
 }
 
 

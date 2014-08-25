@@ -1,11 +1,11 @@
 
 #import "SHViewController_pad.h"
 #import "KLCPopup.h"
-#import "UIView+WM.h"
 #import "PopupMessageTwoButton.h"
 
 
 @interface SHViewController_pad ()
+@property (weak, nonatomic) IBOutlet UILabel *labelTest;
 
 @end
 
@@ -40,9 +40,17 @@
 - (IBAction)buttonTapped:(id)sender {
     
     PopupMessageTwoButton *profileView = [PopupMessageTwoButton loadFromNib];
-    
     KLCPopup* popup = [KLCPopup popupWithContentView:profileView];
-    
+    __weak KLCPopup *weakPopup = popup;
+    __weak SHViewController_pad *weakSelf = self;
+    profileView.didFinishShowingCompletion = ^(BOOL isCanceled){
+        if (isCanceled) {
+            weakSelf.labelTest.text = @"いいえが押されました";
+        } else {
+            weakSelf.labelTest.text = @"はいが押されました";
+        }
+        [weakPopup dismiss];
+    };
     [popup show];
     
 }
